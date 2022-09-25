@@ -3,16 +3,15 @@ Title: Tools reading multi-well plates
 Version: 0.1.0
 Authors@R: person("Andreas", "Sagen", email="andreassag@hotmail.no", role = c("aut", "cre"))
 Description: Collection of functions for working with multi-well microtitre plates and utilities for combining data and metadata
-Depends: R (>= 3.4.0)
-License: ECL-2.0
-URL: https://github.com/exTerEX/plater
-BugReports: https://github.com/exTerEX/plater/issues
-Encoding: UTF-8
-LazyData: true
-Imports:
+Depends:
+    R (>= 3.4.0),
     tidyr (>= 1.2.0),
     dplyr (>= 1.0.0),
     readr (>= 2.1.0),
     readxl (>= 1.4.0)
-Suggests: tidyverse (>= 1.3.0)
+License: ECL-2.0
+URL: https://github.com/exTerEX/plater
+BugReports: https://github.com/exTerEX/plater/issues
+Encoding: UTF-8
+LazyData: false
 RoxygenNote: 7.2.1
